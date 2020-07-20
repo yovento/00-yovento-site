@@ -1,5 +1,8 @@
 # ignore node modules
 /node_modules
 
+# ignore node modules
+/dist
+
 # ignore all cache files
 *.cache
