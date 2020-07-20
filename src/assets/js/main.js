@@ -52,4 +52,8 @@ function InitializePortfolio() {
     maxGlare: 0.6,
     reverse: true,
   });
+
+  $(".portfolio-items .image-link").magnificPopup({
+    type: "image",
+  });
 }
