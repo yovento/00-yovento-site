@@ -1,0 +1,141 @@
+/* ---------------------------------
+		7. Portfolio Section
+--------------------------------- */
+/* Portfolio Filter */
+.pt-portfolio .portfolio-filter {
+	text-align: center;
+}
+
+.pt-portfolio .portfolio-filter ul {
+	position: relative;
+    display: inline-block;
+    margin: 0;
+    padding: 0 20px;
+    background-color: #070708;
+}
+
+.pt-portfolio .portfolio-filter ul li {
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: 600;
+	padding: 10px 25px;
+	-webkit-transition: all .3s;
+			transition: all .3s;
+}
+
+.pt-portfolio .portfolio-filter ul li.active {
+	color: #0e0f10;
+	background-color: #ddd;
+}
+
+/* Portfolio Item */
+.pt-portfolio .portfolio-items .item figure {
+	position: relative;
+	cursor: pointer;
+	background-color: #fff;
+	-webkit-border-radius: 3px;
+			border-radius: 3px;
+	overflow: hidden;
+}
+
+.pt-portfolio .portfolio-items .item figure img {
+	opacity: 1;
+	width: 100%;
+	height: 100%;
+	-webkit-transition: all .3s;
+      transition: all .3s;
+      padding:25px;
+}
+
+.pt-portfolio .portfolio-items .item figure figcaption {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+    height: 100%;
+	display: flex;
+	align-items: center;
+    justify-content: center;
+    padding: 30px;
+    color: #ddd;
+}
+
+.pt-portfolio .portfolio-items .item figure figcaption a {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+
+.pt-portfolio .portfolio-items .item figure figcaption h3 {
+	opacity: 0.8;
+	color: rgba(14, 15, 16, .8);
+	font-size: 20px;
+	font-weight: 700;
+	-webkit-transition: all .3s;
+      transition: all .3s;
+  position: absolute;
+  top: 0;
+}
+
+.pt-portfolio .portfolio-items .item figure figcaption p {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	margin: 20px;
+	font-size: 14px;
+	padding-left: 15px;
+	opacity: 0;
+	-webkit-transform: translateX(-200%);
+			transform: translateX(-200%);
+	-webkit-transition: all .3s;
+			transition: all .3s;
+}
+
+.pt-portfolio .portfolio-items .item figure figcaption p:before {
+	content: "\f292";
+	font-family: "Font Awesome 5 Free";
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: #ddd;
+	font-weight: 900;
+}
+
+.pt-portfolio .portfolio-items .item figure figcaption i {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	margin: 20px;
+	font-size: 24px;
+	opacity: 0;
+	-webkit-transform: translateX(200%);
+			transform: translateX(200%);
+	-webkit-transition: all .3s;
+			transition: all .3s;
+}
+
+.pt-portfolio .portfolio-items .item figure:hover img {
+	opacity: 0.25;
+	-webkit-transform: scale(1.1);
+			transform: scale(1.1);
+}
+
+.pt-portfolio .portfolio-items .item figure:hover h3 {
+	opacity: 1;
+}
+
+.pt-portfolio .portfolio-items .item figure:hover p {
+	opacity: 1;
+	-webkit-transform: translateX(0%);
+			transform: translateX(0%);
+}
+
+.pt-portfolio .portfolio-items .item figure:hover i {
+	opacity: 1;
+	-webkit-transform: translateX(0%);
+			transform: translateX(0%);
+}

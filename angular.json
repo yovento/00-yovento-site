@@ -21,12 +21,28 @@
             "aot": true,
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/app/data"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "./node_modules/font-awesome/css/font-awesome.css",
+              "./node_modules/jquery-animated-headlines/dist/css/jquery.animatedheadline.css",
+              "./node_modules/animate.css/animate.min.css",
+              "src/assets/css/circle-box.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/jquery/dist/jquery.min.js",
+              "./node_modules/jquery/dist/jquery.slim.min.js",
+              "./node_modules/popper.js/dist/umd/popper.min.js",
+              "./node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "./node_modules/jquery-animated-headlines/dist/js/jquery.animatedheadline.min.js",
+              "src/assets/js/jquery.easypiechart.js",
+              "src/assets/js/isotope.pkgd.min.js",
+              "src/assets/js/tilt.js",
+              "src/assets/js/main.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -117,8 +133,16 @@
               "devServerTarget": "yovento-site:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
-  "defaultProject": "yovento-site"
+    }
+  },
+  "defaultProject": "yovento-site",
+  "cli": {
+    "analytics": "2ebdc24d-ff2f-419d-b690-6be0c0cfc924"
+  }
 }

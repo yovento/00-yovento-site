@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Edgar Lopez",
+    "picture": "assets/img/testimonials/Edgar.jpg",
+    "title": "Senior .Net Developer",
+    "company": "Globant",
+    "country": "Colombia",
+    "testimonial": "John is a great person and great skilled software engineer. Curiosity, team work, ethical, responsability, reliability, friendly, quality, discipline, Qualities that rarely can be found together in one person, and all those lead to a person with integrity. I've worked with him for more than 10 years, and I can tell how far has gone and how much has grown. I would have no doubts or neither concerns to include him as part of my teamwork."
+  },
+  {
+    "name": "Juan Rendon",
+    "picture": "assets/img/testimonials/Juancho.png",
+    "title": ".Net Advanced Developer",
+    "company": "MVM Software Engineering",
+    "country": "Colombia",
+    "testimonial": "John great friend and an excellent professional with great skills in the area of ​​software engineering. During these 12 years he has demonstrated great capacities to face different challenges, innovate, propose solutions, investigate and evolve his capacities beyond the demands of the different projects. He has a great personality and innate talent to sing while working."
+  },
+  {
+    "name": "David Gomez",
+    "picture": "assets/img/testimonials/DavidGomez.png",
+    "title": "Senior .Net Developer",
+    "company": "GAP - Growth Acceleration Partners",
+    "country": "Colombia / USA",
+    "testimonial": "I've been working with John on many different projects and I can always find an excellent attitude, Very good technological skills and a deep look at every detail of each project. Working with John was fun. He is not afraid to take on new challenges and is always learning to get more from himself. He is someone you can count on."
+  },
+  {
+    "name": "Juan David Gonzalez",
+    "picture": "assets/img/testimonials/Juanda.jpeg",
+    "title": "Senior .Net Developer",
+    "company": "GAP - Growth Acceleration Partners",
+    "country": "Colombia / USA",
+    "testimonial": "I know him since 2009, and I believe he's one of the best developers I know. He has a wonderful sense of architecture, very practical and straightforward. It's easy to work with him, because of his relaxed personality. His geekness has no cure and so is his strange double sense humor."
+  }
+]

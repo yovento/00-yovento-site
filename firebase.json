@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "yovento-site",
+      "public": "dist/yovento-site",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}

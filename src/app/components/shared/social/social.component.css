@@ -1,0 +1,41 @@
+
+.social {
+  right: 60px !important;
+  top: 60px !important;
+}
+
+/* Social */
+.social {
+	position: absolute;
+	width: 40px;
+	height: 330px;
+	top: 20px;
+	z-index: 1;
+}
+
+.social ul li {
+  display: inline-block;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.social ul li a {
+  color: white;
+}
+
+.social ul li i {
+	color: #ddd;
+	width: 40px;
+	height: 40px;
+	font-size: 16px;
+	line-height: 40px;
+	text-align: center;
+	-webkit-transition: all .5s ease;
+			transition: all .5s ease;
+}
+
+.social ul li i:hover {
+	color: #ddd;
+	-webkit-transform: scale(1.3);
+			transform: scale(1.3);
+}

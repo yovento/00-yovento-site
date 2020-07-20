@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "yovento-personalsite": {
+      "hosting": {
+        "yovento-site": [
+          "yovento-personalsite"
+        ]
+      }
+    }
+  }
+}

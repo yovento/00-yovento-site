@@ -1,0 +1,124 @@
+/* ---------------------------------
+		6. Resume Section
+--------------------------------- */
+/* Experience */
+.pt-resume .experience .item {
+	position: relative;
+	padding-top: 15px;
+	padding-left: 40px;
+	margin-bottom: 14px;
+}
+
+.pt-resume .experience .item:before {
+	content: '';
+	position: absolute;
+	width: 1px;
+	height: 100%;
+	top: 0;
+	left: 0;
+  background-color: cornflowerblue;
+  margin-top: 30px;
+  padding-top: 8px;
+}
+
+
+.pt-resume .experience .main p {
+	color: #ddd;
+	font-size: 12px;
+}
+
+.pt-resume .experience .main p i {
+    font-size: 13px;
+    margin-right: 5px;
+}
+
+.pt-resume .experience .main h4 {
+	position: relative;
+	line-height: 25px;
+	margin-bottom: 15px;
+}
+
+.pt-resume .experience .main h4:before {
+	content: '';
+	position: absolute;
+	width: 13px;
+	height: 13px;
+	left: -46px;
+	background-color: #0e0f10;
+	border: 2px solid cornflowerblue;
+	-webkit-border-radius: 50%;
+			border-radius: 50%;
+  z-index: 1;
+  margin-top: 5px;
+}
+
+.pt-resume .experience .item:hover h4:before {
+	background-color: #ddd;
+	-webkit-transition: all .3s;
+			transition: all .3s;
+}
+
+/* Skills Bar */
+.pt-resume .skill-item {
+    padding: 0 20px;
+}
+
+.pt-resume .skill-item .progress-title {
+	font-size: 17px;
+	margin-bottom: 10px;
+}
+
+.pt-resume .skill-item .progress {
+	height: 8px;
+	background-color: #777;
+	margin-bottom: 40px;
+	overflow: visible;
+}
+
+.pt-resume .skill-item .progress .progress-bar {
+    position: relative;
+    background-color: cornflowerblue;
+    -webkit-border-radius: 10px;
+    		border-radius: 10px;
+}
+
+.pt-resume .skill-item .progress .progress-bar:after {
+    content: '';
+    position: absolute;
+	  display: block;
+    top: -5px;
+    right: 0px;
+    padding: 6px;
+    background-color: #ddd;
+    -webkit-border-radius: 50%;
+    		border-radius: 50%;
+    border: 3px solid #ddd;
+}
+
+.pt-resume .skill-item .progress .progress-value {
+    position: absolute;
+    top: -30px;
+    right: 0;
+    color: #ddd;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.pt-resume .chart {
+	width: 130px;
+	height: 130px;
+	margin: 0 auto 25px;
+	text-align: center;
+	font-size: 25px;
+	line-height: 24px;
+	padding: 40px 0 0;
+	color: #eee;
+	font-weight: 800;
+}
+
+.pt-resume .chart p {
+	font-size: 15px;
+	margin-top: 10px;
+}
+
+
