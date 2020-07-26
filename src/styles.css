@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 body {
-  font-family: 'Poppins',sans-serif;
-  background: url('./assets/img/home-bg.jpg') no-repeat center center fixed;
+  font-family: "Poppins", sans-serif;
+  background: url("./assets/img/home-bg.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -10,12 +10,17 @@ body {
 }
 
 .simplebar-content-wrapper {
-  background: rgba(14, 15, 16, .6);
+  background: rgba(14, 15, 16, 0.6);
+}
+
+.social-image {
+  width: 17px;
+  height: 17px;
+  margin-left: 11px;
 }
 
 .main-container {
   margin-left: 17rem;
-
 }
 
 .page-content {
@@ -24,9 +29,7 @@ body {
   transition: all 0.4s;
 }
 
-
 @media (max-width: 768px) {
-
   .page-content {
     width: 100%;
     margin-top: 50px !important;
@@ -35,12 +38,8 @@ body {
   }
 }
 
-img {
-  max-width: 100%;
-}
-
 .img-thumbnail {
-  padding: .15rem !important;
+  padding: 0.15rem !important;
   background-color: #ddd !important;
 }
 
@@ -56,17 +55,17 @@ img {
 }
 
 .text-panel {
-  background: rgba(0, 0, 0, .5);
+  background: rgba(0, 0, 0, 0.5);
   border-radius: 10px;
   padding: 2rem;
 }
 
 .canvasChart {
   position: absolute !important;
-	top: 3px !important;
-	left: 50% !important;
-	-webkit-transform: translateX(-50%) !important;
-			transform: translateX(-50%) !important;
+  top: 3px !important;
+  left: 50% !important;
+  -webkit-transform: translateX(-50%) !important;
+  transform: translateX(-50%) !important;
 }
 
 .page .header-page {
@@ -75,12 +74,16 @@ img {
   padding-bottom: 50px;
 }
 
-.page .header-box, .blog-page .header-box {
+.page .header-box,
+.blog-page .header-box {
   position: relative;
   text-align: center;
 }
 
-.header-page h2, .pt-resume .experience .main h4:before, .blog-list .side-left .categories ul li:before, .blog-list .side-left .archives ul li:before {
+.header-page h2,
+.pt-resume .experience .main h4:before,
+.blog-list .side-left .categories ul li:before,
+.blog-list .side-left .archives ul li:before {
   padding-bottom: 10px;
   border-bottom: 2px solid cornflowerblue !important;
 }
@@ -352,7 +355,32 @@ img {
   padding: 0 !important;
 }
 
-a:hover, a:focus, .header-main ul li span.active, #about:target .icon-a, #resume:target .icon-r, #portfolio:target .icon-p, #blog:target .icon-b, #contact:target .icon-c, .pt-home .social ul li i:hover, .pt-about .info .loc, .pt-about .desc-icon p, .pt-about .inter-icon i, .pt-about .testimonial-item:before, .pt-about .testimonial-item .rating li, .pt-resume .experience .main p, .pt-resume .work-process .wp-step, .contact-valid #loader i, .blog-page .blog-nav a:hover, .blog-page .blog-nav a:focus, .blog-page .blog-heading i, .blog-page .blog-comments ul li .comment-text span, .pt-about .inter-icon i, .blog-list .blog-head .blog-breadcrumb li, .blog-list .side-left .search .input-group .input-group-text, .blog-list .side-left .news p, .blog-list .blog-post .content .detalis .meta li i {
+a:hover,
+a:focus,
+.header-main ul li span.active,
+#about:target .icon-a,
+#resume:target .icon-r,
+#portfolio:target .icon-p,
+#blog:target .icon-b,
+#contact:target .icon-c,
+.pt-home .social ul li i:hover,
+.pt-about .info .loc,
+.pt-about .desc-icon p,
+.pt-about .inter-icon i,
+.pt-about .testimonial-item:before,
+.pt-about .testimonial-item .rating li,
+.pt-resume .experience .main p,
+.pt-resume .work-process .wp-step,
+.contact-valid #loader i,
+.blog-page .blog-nav a:hover,
+.blog-page .blog-nav a:focus,
+.blog-page .blog-heading i,
+.blog-page .blog-comments ul li .comment-text span,
+.pt-about .inter-icon i,
+.blog-list .blog-head .blog-breadcrumb li,
+.blog-list .side-left .search .input-group .input-group-text,
+.blog-list .side-left .news p,
+.blog-list .blog-post .content .detalis .meta li i {
   color: cornflowerblue !important;
   text-decoration: none;
 }
@@ -370,7 +398,7 @@ a:hover, a:focus, .header-main ul li span.active, #about:target .icon-a, #resume
 }
 
 .btn-st:before {
-  content: '';
+  content: "";
   position: absolute;
   width: 40%;
   height: 200%;
@@ -381,12 +409,12 @@ a:hover, a:focus, .header-main ul li span.active, #about:target .icon-a, #resume
   -webkit-border-radius: 10px;
   border-radius: 10px;
   z-index: -1;
-  -webkit-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .btn-st:after {
-  content: '';
+  content: "";
   position: absolute;
   width: 110%;
   height: 10%;
@@ -395,21 +423,21 @@ a:hover, a:focus, .header-main ul li span.active, #about:target .icon-a, #resume
   background: cornflowerblue;
   padding: 0px;
   z-index: 0;
-  -webkit-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
-
 .btn-st:hover:before {
-	-webkit-border-radius: unset;
-			border-radius: unset;
-	-webkit-transform: translateX(120%) scaleX(3) scaleY(0.8);
-			transform: translateX(120%) scaleX(3) scaleY(0.8);
+  -webkit-border-radius: unset;
+  border-radius: unset;
+  -webkit-transform: translateX(120%) scaleX(3) scaleY(0.8);
+  transform: translateX(120%) scaleX(3) scaleY(0.8);
 }
 
 .btn-st:hover:after {
-	-webkit-transform: translateX(-55%) translateY(-550%) rotate(90deg) scaleX(0.3);
-			transform: translateX(-55%) translateY(-550%) rotate(90deg) scaleX(0.3);
+  -webkit-transform: translateX(-55%) translateY(-550%) rotate(90deg)
+    scaleX(0.3);
+  transform: translateX(-55%) translateY(-550%) rotate(90deg) scaleX(0.3);
 }
 
 .simplebar-scrollbar:before {
